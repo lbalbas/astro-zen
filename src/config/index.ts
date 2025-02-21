@@ -1,23 +1,19 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Alejandro Múnez — Mobile & Web Developer",
-  author: "Alejandro Múnez Cuntez",
+  title: "Luis Balbás — Fullstack Engineer",
+  author: "Luis Balbás",
   description:
-    "Software Engineer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
+    "Highly motivated and results-oriented Software Engineer with a strong foundation in Web Development, specializing in JavaScript. Recent graduate eager to contribute to challenging projects and collaborate with talented teams.",
   lang: "en",
-  siteLogo: "/alejandro-small.jpg",
   navLinks: [
-    { text: "Experience", href: "#experience" },
+    { text: "Relevant Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    { text: "Twitter", href: "https://github.com/immois/astro-zen" },
-    { text: "LinkedIn", href: "https://github.com/immois/astro-zen" },
-    { text: "Github", href: "https://github.com/immois/astro-zen" },
-    { text: "Youtube", href: "https://github.com/immois/astro-zen" },
-    { text: "Dribbble", href: "https://github.com/immois/astro-zen" },
+    //{ text: "LinkedIn", href: "https://linkedin.com/in/luis-balbas" },
+    { text: "Github", href: "https://github.com/lbalbas" },
   ],
   socialImage: "/zen-og.png",
   canonicalURL: "https://astro-zen.vercel.app",
@@ -25,71 +21,67 @@ export const SITE_CONFIG: SiteConfig = {
 
 export const SITE_CONTENT: SiteContent = {
   hero: {
-    name: "Alejandro Múnez",
-    specialty: "Mobile & Web Developer",
-    summary:
-      "Developer based in San Francisco, USA. I specialize in UI design, web and mobile application development and maintenance.",
-    email: "example@email.com",
+    name: "Luis Balbás",
+    specialty: "Fullstack Engineer",
+    summary: "A passionate Software Engineer, specializing in FullStack Web Development.",
+    email: "luis.balbas@outlook.com",
   },
   experience: [
     {
-      company: "Zalmart",
-      position: "Lead Android Developer",
-      startDate: "May 2018",
-      endDate: "Sept 2020",
+      company: "Bolivar State's Systems and IT Directorate",
+      position: "Academic Project",
+      startDate: "Nov 2023",
+      endDate: "May 2024",
       summary: [
-        "Implemented advanced memory management and code optimization techniques, resulting in a reduction in application load time by 40% and a decrease in crashes by 25%. This significantly improved user experience and increased user retention by 20%.",
-        "I led a team of developers in building and integrating new features using Jetpack Android components such as LiveData and ViewModel. This enabled us to build scalable and maintainable applications, reducing the crash rate by 20% and speeding up the time to delivery of new features by 15%.",
-        "Integrated Google Pay for in-app purchases, resulting in a 35% increase in mobile transaction revenue. Additionally, implemented Firebase Analytics to gain insights into user behavior, enabling data-driven optimizations and a 30% increase in user retention.",
+        "Spearheaded the development of a comprehensive web application using the XAMPP stack, streamlining the national asset management processes within the Directorate. This initiative streamlined operations and significantly enhanced the Directorate's ability to monitor and manage assets across multiple departments.",
+        "Achieved a substantial increase in inventory management efficiency, leading to improved user satisfaction. By providing real-time data access and information retrieval, I facilitated daily asset management and inventory control operations, empowering staff to make informed decisions quickly.",
+        "Improved the accuracy and efficiency of material asset assignment and transfer processes, significantly enhancing asset tracking and movement across the Directorate's offices.",
       ],
     },
     {
-      company: "Bankit",
-      position: "Mobile Developer",
-      startDate: "Feb 2017",
-      endDate: "May 2018",
+      company: "Urban Ambulatory Petra Emilia",
+      position: "Academic Project",
+      startDate: "Nov 2021",
+      endDate: "May 2022",
       summary: [
-        "I designed and developed a mobile application using Flutter, allowing it to be deployed on both Android and iOS with a single codebase. This reduced development time by 50% and maintenance costs by 30%, facilitating a consistent user experience on both platforms.",
-        "I integrated biometric authentication and data encryption, significantly improving the security of user data. This implementation resulted in a 40% increase in user trust and a 25% reduction in unauthorized access attempts.",
+        "Developed an innovative web application making use of the XAMPP stack to enhance vaccination tracking and improve the overall patient experience within the ambulatory healthcare setting. This project was instrumental in modernizing vaccination management and patient relations.",
+        "Integrated critical features such as immediate access to patient vaccination records, comprehensive vaccination histories, and accurate vaccine supply tracking. These enhancements support healthcare professionals in delivering timely and effective patient care.",
+        "Contributed to improved patient compliance rates, reduced vaccine waste, and facilitated informed decision-making by healthcare personnel leading to improved community health.",
       ],
-    },
-    {
-      company: "Driveer",
-      position: "Frontend Developer",
-      startDate: "Jun 2015",
-      endDate: "Oct 2016",
-      summary:
-        "Developed and integrated a real-time vehicle tracking system using WebSockets, improving accuracy and data update in the application. This functionality increased user satisfaction by 30% and reduced customer service inquiries by 25%.",
-    },
+    }
   ],
   projects: [
     {
-      name: "Spotifu Music",
-      summary: "A music streaming app that emulates Spotify's core features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/spotifu.png",
+      name: "YelpCamp",
+      summary: "YelpCamp is a website where users can create and review campgrounds. From Codewell's YelpCamp challenge",
+      linkPreview: "https://t3-yelp-camp.vercel.app",
+      linkSource: "https://github.com/lbalbas/t3-yelp-camp",
+      image: "/yelpcamp.jpg",
     },
     {
-      name: "Shopp App",
-      summary: "An e-commerce platform that replicates Shopify's key features.",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/shopify-clon.png",
+      name: "Country Data",
+      summary: "WebApp that fetches API data to show you relevant information about countries all over the world.",
+      linkPreview: "https://magnificent-fenglisu-e905bd.netlify.app",
+      linkSource: "https://github.com/lbalbas/rest-countries-api-with-color-theme-switcher",
+      image: "/country-data.jpg",
     },
     {
-      name: "ClonTagram",
-      summary: "A social network that replicates the features of Instagram",
-      linkPreview: "/",
-      linkSource: "https://github.com/immois/astro-zen",
-      image: "/clone-ig.png",
+      name: "Ecommerce Site",
+      summary: "A mockup Ecommerce Site built with NextJS, Prisma, TRPC, Supabase and the Stripe Checkout API. Includes a persisting cart using LocalStorage and search functionality.",
+      linkPreview: "https://ecommerce-site-orpin.vercel.app",
+      linkSource: "https://github.com/lbalbas/ecommerce-site",
+      image: "/ecommerce.jpg",
     },
   ],
   about: {
     description: `
-      Hi, I’m Alejandro Múnez, a passionate Mobile and Web Developer with a knack for crafting seamless digital experiences. With a strong background in both Android and iOS development, as well as front-end web technologies, I thrive in the intersection where creativity meets technology.
-
-      Over the years, I’ve honed my skills in building robust, user-friendly applications that not only meet the needs of users but also push the boundaries of what’s possible. My projects range from innovative mobile applications to responsive web designs, all with a focus on performance, security, and scalability.
+      Hi, I’m Luis Balbás, a Fullstack Engineer based in Ciudad Bolivar, Venezuela. 
+      I'm passionate about crafting robust and user-friendly web applications, specializing in FullStack Development. 
+      My toolkit includes Typescript, React, Node.js, SQL databases, and MongoDB, allowing me to build everything from dynamic front-end experiences to scalable back-end systems.  
+      <br>  
+      <br>
+      I'm a firm believer in continuous learning and actively seek opportunities to expand my skillset.  
+      I'm excited to connect and explore opportunities where I can make a real difference.
     `,
     image: "/alejandro-big.jpg",
   },
