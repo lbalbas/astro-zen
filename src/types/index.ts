@@ -2,6 +2,7 @@ export interface SiteConfig extends HeaderProps {
   title: string;
   description: string;
   lang: string;
+  siteLogo: string;
   author: string;
   socialLinks: { text: string; href: string }[];
   socialImage: string;
@@ -45,4 +46,5 @@ export interface AboutProps {
 
 export interface HeaderProps {
   navLinks: { text: string; href: string }[];
+  siteLogo: string;
 }

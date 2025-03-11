@@ -1,22 +1,23 @@
 import type { SiteConfig, SiteContent } from "../types";
 
 export const SITE_CONFIG: SiteConfig = {
-  title: "Luis Balbás — Fullstack Engineer",
+  title: "Luis Balbás — Software Engineer",
   author: "Luis Balbás",
   description:
     "Highly motivated and results-oriented Software Engineer with a strong foundation in Web Development, specializing in JavaScript. Recent graduate eager to contribute to challenging projects and collaborate with talented teams.",
   lang: "en",
+  siteLogo: "/luis-small.jpg",
   navLinks: [
     { text: "Relevant Experience", href: "#experience" },
     { text: "Projects", href: "#projects" },
     { text: "About", href: "#about" },
   ],
   socialLinks: [
-    //{ text: "LinkedIn", href: "https://linkedin.com/in/luis-balbas" },
+    { text: "LinkedIn", href: "https://linkedin.com/in/luis-balbas" },
     { text: "Github", href: "https://github.com/lbalbas" },
   ],
   socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  canonicalURL: "https://luisbalbas.netlify.app",
 };
 
 export const SITE_CONTENT: SiteContent = {
@@ -83,7 +84,7 @@ export const SITE_CONTENT: SiteContent = {
       I'm a firm believer in continuous learning and actively seek opportunities to expand my skillset.  
       I'm excited to connect and explore opportunities where I can make a real difference.
     `,
-    image: "/alejandro-big.jpg",
+    image: "/luis-big.jpg",
   },
 };
 
