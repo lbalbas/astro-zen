@@ -53,6 +53,13 @@ export const SITE_CONTENT: SiteContent = {
   ],
   projects: [
     {
+      name: "Ecommerce Site",
+      summary: "A mockup Ecommerce Site built with NextJS, Typescript, TailwindCSS, Prisma, TRPC, Supabase and the Stripe Checkout API. Includes a persisting cart using LocalStorage and search functionality.",
+      linkPreview: "https://ecommerce-site-orpin.vercel.app",
+      linkSource: "https://github.com/lbalbas/ecommerce-site",
+      image: "/ecommerce.jpg",
+    },
+    {
       name: "YelpCamp",
       summary: "Fullstack WebApp using NextJS, Typescript, TailwindCSS, MongoDB, and TRPC where users can create, read, update and delete campgrounds and reviews. From Codewell's YelpCamp challenge",
       linkPreview: "https://t3-yelp-camp.vercel.app",
@@ -65,14 +72,7 @@ export const SITE_CONTENT: SiteContent = {
       linkPreview: "https://magnificent-fenglisu-e905bd.netlify.app",
       linkSource: "https://github.com/lbalbas/rest-countries-api-with-color-theme-switcher",
       image: "/country-data.jpg",
-    },
-    {
-      name: "Ecommerce Site",
-      summary: "A mockup Ecommerce Site built with NextJS, Typescript, TailwindCSS, Prisma, TRPC, Supabase and the Stripe Checkout API. Includes a persisting cart using LocalStorage and search functionality.",
-      linkPreview: "https://ecommerce-site-orpin.vercel.app",
-      linkSource: "https://github.com/lbalbas/ecommerce-site",
-      image: "/ecommerce.jpg",
-    },
+    }
   ],
   about: {
     description: `
