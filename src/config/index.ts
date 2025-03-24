@@ -76,8 +76,8 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-      Hi, I’m Luis Balbás, a Fullstack Engineer based in Ciudad Bolivar, Venezuela. 
-      I'm passionate about crafting robust and user-friendly web applications, specializing in FullStack Development. 
+      Hi, I’m Luis Balbás, a Software Engineer based in Ciudad Bolivar, Venezuela. 
+      I'm passionate about crafting robust and user-friendly web applications. 
       My toolkit includes Typescript, React, Node.js, SQL databases, and MongoDB, allowing me to build everything from dynamic front-end experiences to scalable back-end systems.  
       <br>  
       <br>
